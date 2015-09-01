@@ -1,0 +1,538 @@
+@charset "utf-8";
+/*===============
+contain : such as strong text, margin set, basic list & font style and so on =====*/
+
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: "latoReg";
+	font-size: 16px;
+}
+
+
+/*---------------------------------
+text size
+---------------------------------*/
+.txt09 {
+	font-size: 9px;
+}
+.txt10 {
+	font-size: 10px;
+}
+.txt12 {
+	font-size: 12px;
+}
+.txt13 {
+	font-size: 13px;
+}
+.txt14 {
+	font-size: 14px;
+}
+.txt16 {
+	font-size: 16px;
+}
+.txt18 {
+	font-size: 18px;
+}
+.txt20 {
+	font-size: 20px;
+}
+.txt24 {
+	font-size: 24px;
+}
+.txt30 {
+	font-size: 30px;
+}
+.txt35 {
+	font-size: 35px;
+}
+.txt36 {
+	font-size: 36px;
+}
+.txt48 {
+	font-size: 48px;
+}
+.txt58 {
+	font-size: 58px;
+}
+.txt65 {
+	font-size: 65px;
+}
+
+
+/*---------------------------------
+text layout
+---------------------------------*/
+.txtC{text-align:center !important;}
+.txtL{text-align:left!important;}
+.txtR{text-align:right!important;}
+
+.floatL{float:left;}
+.floatR{float:right;}
+.floatN{float:none!important;}
+
+/*-------------------------------------------
+font color
+-------------------------------------------*/
+.txtRed {
+	color: #e74c3c;
+}
+.txtGrey {
+	color: #979797;
+}
+.txtWhite{
+	color: #FFFFFF;
+}
+.txtGreen{
+	color: #38c23b;
+}
+.txtBlue{
+	color: #0e6eb1;
+}
+.txtBlueNavy {
+	color: #05aecc;
+}
+.txtPink{
+	color: #ef5966;
+}
+.txtLato {
+	font-family: "latoReg";
+}
+.txtAparaj {
+	font-family: "aparaj";
+}
+.txtTransUp {
+	text-transform: uppercase !important;
+}
+/*-------------------------------------------
+Layout Adjust
+-------------------------------------------*/
+/* margin
+---------------------------------*/
+.m00 {
+	margin: 0!important;
+}
+.m05 {
+	margin: 5px!important;
+}
+.m10 {
+	margin: 10px!important;
+}
+.m15 {
+	margin: 15px!important;
+}
+.m20 {
+	margin: 20px!important;
+}
+.m25 {
+	margin: 25px!important;
+}
+.m30 {
+	margin: 30px!important;
+}
+.mt00 {
+	margin-top: 0 !important;
+}
+.mt05 {
+	margin-top: 5px !important;
+}
+.mt10 {
+	margin-top: 10px !important;
+}
+.mt15 {
+	margin-top: 15px !important;
+}
+.mt19 {
+	margin-top: 19px !important;
+}
+.mt20 {
+	margin-top: 20px !important;
+}
+.mt25 {
+	margin-top: 25px !important;
+}
+.mt30 {
+	margin-top: 30px !important;
+}
+.mt35 {
+	margin-top: 35px !important;
+}
+.mt40 {
+	margin-top: 40px !important;
+}
+.mt50 {
+	margin-top: 50px !important;
+}
+.mt55 {
+	margin-top: 55px !important;
+}
+.mb00 {
+	margin-bottom: 0 !important;
+}
+.mb05 {
+	margin-bottom: 5px !important;
+}
+.mb10 {
+	margin-bottom: 10px !important;
+}
+.mb15 {
+	margin-bottom: 15px !important;
+}
+.mb20 {
+	margin-bottom: 20px !important;
+}
+.mb25 {
+	margin-bottom: 25px !important;
+}
+.mb30 {
+	margin-bottom: 30px !important;
+}
+.mb35 {
+	margin-bottom: 35px !important;
+}
+.mb40 {
+	margin-bottom: 40px !important;
+}
+.mb50 {
+	margin-bottom: 50px !important;
+}
+.ml00 {
+	margin-left: 0 !important;
+}
+.ml05 {
+	margin-left: 5px !important;
+}
+.ml10 {
+	margin-left: 10px !important;
+}
+.ml14 {
+	margin-left: 14px !important;
+}
+.ml15 {
+	margin-left: 15px !important;
+}
+.ml18 {
+	margin-left: 18px !important;
+}
+.ml20 {
+	margin-left: 20px !important;
+}
+.ml25 {
+	margin-left: 25px !important;
+}
+.ml30 {
+	margin-left: 30px !important;
+}
+.ml35 {
+	margin-left: 35px !important;
+}
+.ml40 {
+	margin-left: 40px !important;
+}
+.ml50 {
+	margin-left: 50px !important;
+}
+.ml60 {
+	margin-left: 60px !important;
+}
+.ml100 {
+	margin-left: 100px !important;
+}
+.ml150 {
+	margin-left: 150px !important;
+}
+.ml170 {
+	margin-left: 170px !important;
+}
+.mr00 {
+	margin-right: 0 !important;
+}
+.mr05 {
+	margin-right: 5px !important;
+}
+.mr10 {
+	margin-right: 10px !important;
+}
+.mr15 {
+	margin-right: 15px !important;
+}
+.mr20 {
+	margin-right: 20px !important;
+}
+.mr25 {
+	margin-right: 20px !important;
+}
+.mr30 {
+	margin-right: 30px !important;
+}
+.mr35 {
+	margin-right: 30px !important;
+}
+.mr40 {
+	margin-right: 40px !important;
+}
+.mr50 {
+	margin-right: 50px !important;
+}
+.mr60 {
+	margin-right: 60px !important;
+}
+.mr100 {
+	margin-right: 100px !important;
+}
+.mr150 {
+	margin-left: 150px !important;
+}
+/* Image
+---------------------------------*/
+.imgLeft {
+	text-align:left;
+}
+.imgCenter {
+	text-align:center;
+}
+.imgRight {
+	text-align:right;
+}
+.pt5 {
+	padding-top: 5px;
+}
+.pt09 {
+	padding-top: 9px;
+}
+.pt11 {
+	padding-top: 11px;
+}
+.pl22 {
+	padding-left: 22px;
+}
+.h30 {
+	height: 30px !important;
+}
+.h55 {
+	height: 55px !important;
+}
+
+/* Rotate text
+---------------------------------*/
+.rotate {
+
+/* Safari */
+-webkit-transform: rotate(-90deg);
+
+/* Firefox */
+-moz-transform: rotate(-90deg);
+
+/* IE */
+-ms-transform: rotate(-90deg);
+
+/* Opera */
+-o-transform: rotate(-90deg);
+
+/* Internet Explorer */
+filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+
+}
+
+/*Tooltips*/
+a.tooltips {
+  position: relative;
+  display: inline;
+}
+a.tooltips span {
+  position: absolute;
+  width:140px;
+  color: #000000;
+  background: #FFFFFF;
+  border: 2px solid #F0626E;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  visibility: hidden;
+  border-radius: 6px;
+}
+a.tooltips span:before {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -12px;
+  width: 0; height: 0;
+  border-top: 12px solid #F0626E;
+  border-right: 12px solid transparent;
+  border-left: 12px solid transparent;
+}
+a.tooltips span:after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -8px;
+  width: 0; height: 0;
+  border-top: 8px solid #FFFFFF;
+  border-right: 8px solid transparent;
+  border-left: 8px solid transparent;
+}
+a:hover.tooltips span {
+  visibility: visible;
+  opacity: 1;
+  bottom: 30px;
+  left: 50%;
+  margin-left: -76px;
+  z-index: 999;
+}
+
+/*slider1*/
+.infiniteCarousel {
+  width: 1170px;
+  position: relative;
+}
+
+.infiniteCarousel .wrapper {
+  width: 1170px; /* .infiniteCarousel width - (.wrapper margin-left + .wrapper margin-right) */
+  height: 200px;
+  overflow: auto;
+  min-height: 10em;
+  position: absolute;
+  top: 0;
+}
+.infiniteCarousel .wrapper ul {
+  width: 9999px;
+  list-style-image:none;
+  list-style-position:outside;
+  list-style-type:none;
+  margin:0;
+  padding:0;
+  position: absolute;
+  top: 0;
+}
+
+.infiniteCarousel ul li {
+  display:block;
+  float:left;
+  height: 200px;
+  width: 370px;
+  padding: 0 30px 0 0;
+}
+
+.infiniteCarousel ul li a img {
+  display:block;
+}
+
+.infiniteCarousel .arrow {
+  display: block;
+  height: 79px;
+  width: 70px;
+  text-indent: -999px;
+  position: absolute;
+  cursor: pointer;
+}
+
+.infiniteCarousel .forward {
+  background: url(../images/NEWPRODUCTS_idle_right.png) no-repeat;
+  right: 0;
+  top: -98px;
+}
+
+.infiniteCarousel .back {
+	background: url(../images/NEWPRODUCTS_hover_left.png) no-repeat;
+	right: 80px;
+	top: -98px;
+}
+
+/*slider2*/
+.infiniteCarousel2 {
+  width: 1170px;
+  position: relative;
+}
+
+.infiniteCarousel2 .wrapper2 {
+  width: 1170px; /* .infiniteCarousel width - (.wrapper margin-left + .wrapper margin-right) */
+  height: 402px;
+  overflow: auto;
+  min-height: 10em;
+  position: absolute;
+  top: 0;
+  padding: 2px;
+}
+.infiniteCarousel2 .wrapper2 ul {
+  width: 9999px;
+  list-style-image:none;
+  list-style-position:outside;
+  list-style-type:none;
+  margin:0;
+  padding:0;
+  position: absolute;
+  top: 0;
+}
+
+.infiniteCarousel2 ul li {
+  display:block;
+  float:left;
+  height: 402px;
+  width: 270px;
+  padding: 0 29px 0 0;
+}
+
+.infiniteCarousel2 ul li a img {
+  display:block;
+}
+
+.infiniteCarousel2 .arrow {
+  display: block;
+  height: 79px;
+  width: 70px;
+  text-indent: -999px;
+  position: absolute;
+  cursor: pointer;
+}
+
+.infiniteCarousel2 .forward {
+  background: url(../images/NEWPRODUCTS_idle_right.png) no-repeat;
+  right: 0;
+  top: -98px;
+}
+
+.infiniteCarousel2 .back {
+	background: url(../images/FEATUREDPROD_hover_left.png) no-repeat;
+	right: 80px;
+	top: -98px;
+}
+
+.infiniteCarousel2 .forward:hover {
+  background-position: 0;
+}
+
+.infiniteCarousel2 .back:hover {
+  background-position: 0;
+}
+
+/*new product*/
+.featuredBlockNew {
+	width: 99px;
+	height: 51px;
+	position: absolute;
+	right: 0;
+	background: #05aecc;
+	border-left: 1px solid #dddddd;
+}
+.spanBlockNew {
+	width: 80px;
+	padding: 12px 0;
+	position: absolute;
+	left: 0;
+	top: 13px;
+	font-size: 14px;
+	color: #fff;
+	background: #05aecc;
+	text-align: center; 
+}
+
+.clearfix {
+	margin: 0 0 0 95px;
+}
+.clearfix:after {
+    display:block;
+    clear:both;
+}
+
